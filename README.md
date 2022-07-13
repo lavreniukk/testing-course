@@ -1,6 +1,6 @@
 ## Coursera Web Development
 
-On this page you can see my solutions to all module assignments of "HTML, CSS and Javascript for Web Developers" course^
+On this page you can see my solutions to all module assignments of "HTML, CSS and Javascript for Web Developers" course:
 
 ### **Solutions**
 
