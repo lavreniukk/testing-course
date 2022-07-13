@@ -6,5 +6,8 @@ On this page you can see my solutions to all module assignments of "HTML, CSS an
 
 * [Module 2 Assignment](https://lavreniukk.github.io/testing-course/mod2_solution/index.html)
 
+
+
+
 ### **Get In Touch**
 lavreniuk.andrey@gmail.com
