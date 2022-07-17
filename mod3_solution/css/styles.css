@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    color: #c5c6c7;
+    margin: 0;
+    background-color: #0b0c10;
+}
+
+/********** HEADER ***********/
+.navbar-header {
+    width: 100%;
+}
+#header-nav {
+    background-color: #1f2833;
+    border-radius: 0;
+    border: 2px solid #c5c6c7;
+    min-height: 90px;
+}
+#header-nav .container{
+    background-color: #1f2833;
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #66FCF1;
+    font-size:  1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0 10px 25px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link {
+    text-decoration: none;
+}
+.navbar-brand a:hover {
+    text-shadow: 0 0 1em #45a29e;
+}
+.navbar-toggle .icon-bar{
+    background-color: #66FCF1;
+}
+#nav-list {
+    margin: 0;
+    background: #1f2833;
+}
+#nav-list a {
+    text-align: center;
+    border: 2px solid #45a29e;
+    padding: 5px;
+    margin: 5px;
+}
+#nav-list a {
+    color: #66FCF1;
+    font-size: 25px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav-list a:hover {
+    background: #45a29e;
+}
+.navbar-header button.navbar-toggle {
+    height: 50px;
+    width: 50px;
+    margin: 18px 10px;
+}
+.navbar-header .icon-bar {
+    margin: auto;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #66FCF1;
+}
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+    background-color: #45a29e;
+}
+/********** END OF HEADER **********/
+
+/********** MAIN CONTENT **********/
+#main-content {
+    background-color: #1f2833;
+    margin: 25px 15px 25px;
+    width: auto;
+}
+#main-content div p {
+    padding: 15px;
+}
+h3 {
+    text-align: center;
+    padding: 5px;
+}
+#main-content a:hover, #main-content a:focus, #main-content a{
+    color: #66FCF1;
+    text-decoration: none;
+}
+#main-content a:hover {
+    text-shadow: 0 0 1em #45a29e;
+}
+/********** END OF CONTENT **********/
+
+@media (max-width: 767px) {
+    #collapsable-nav {
+        border: 2px solid #c5c6c7;
+        margin-right: -2px;
+        margin-left: -2px;
+    }
+}
